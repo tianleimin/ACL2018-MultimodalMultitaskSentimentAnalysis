@@ -1,5 +1,5 @@
 # Vocal unimodal multitask learning (valence+intensity) 
-# for ACL2018 Computational Modeling of Human Multimodal Language workshop paper
+# for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
 import numpy as np
