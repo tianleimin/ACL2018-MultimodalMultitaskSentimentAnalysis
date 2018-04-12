@@ -1,5 +1,5 @@
-# TFN multimodal multitask learning (valence+intensity) for ACL2018 emotion challenge
-# Parameters following MOSI_2017 TFN paper
+# TFN multimodal multitask learning (valence+intensity)
+# for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
 import numpy as np
