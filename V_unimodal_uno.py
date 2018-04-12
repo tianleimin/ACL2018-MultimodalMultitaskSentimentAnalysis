@@ -1,5 +1,5 @@
-# Visual unimodal singletask learning for ACL2018 emotion challenge
-# Parameters following MOSI_2017 TFN paper
+# Visual unimodal singletask learning
+# for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
 import numpy as np
