@@ -1,4 +1,4 @@
-# DL multimodal multitask learning (valence+polarity)
+# Late Fusion multimodal multitask learning (valence+polarity)
 # for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
