@@ -1,4 +1,4 @@
-# ACL2018
+# Multimodal sentiment analysis with multi-task learning
 
 **Unimodal and multimodal uni-task, bi-task, and tri-task learning models for sentiment analysis using the CMU-MOSI database.**
 
