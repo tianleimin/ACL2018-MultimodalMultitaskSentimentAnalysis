@@ -1,4 +1,4 @@
-# TFN multimodal singletask learning
+# Tensor Fusion Network multimodal singletask learning
 # for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
