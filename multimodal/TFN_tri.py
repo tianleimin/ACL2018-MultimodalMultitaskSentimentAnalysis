@@ -1,4 +1,4 @@
-# TFN multimodal multitask learning (valence+polarity+intensity)
+# Tensor Fusion Network multimodal multitask learning (valence+polarity+intensity)
 # for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
