@@ -2,8 +2,15 @@
 
 **Unimodal and multimodal uni-task, bi-task, and tri-task learning models for sentiment analysis using the CMU-MOSI database.**
 
+* In uni-task models we perform regression experiments to predict sentiment scores.
 
-Codes accompanying our ACL2018 Computational Modeling of Human Multimodal Language Workshop paper:
+* In bi-task models we perform multi-task learning experiments which have sentiment score regression as the main task, and intensity **or** polarity classification as the auxiliary task.
+
+* In tri-task models we perform multi-task learing experiments which have sentiment score regression as the main task, and intensity **and** polarity classification as the auxiliary tasks.
+
+* In multimodal models we compare Early Fusion, Late Fusion, Hierarchical Fusion, and Tensor Fusion Network.
+
+These codes are for our ACL2018 Computational Modeling of Human Multimodal Language Workshop paper:
 
 ```latex
 @inproceedings{tian2018polarity,
@@ -16,7 +23,7 @@ Codes accompanying our ACL2018 Computational Modeling of Human Multimodal Langua
 ```
 
 
-The Hierarchical Fusion model in the multimodal experiments is based on paper:
+The Hierarchical Fusion model in the multimodal experiments is based on our previous work:
 
 ```latex
 @inproceedings{tian2016recognizing,
