@@ -1,4 +1,4 @@
-# HL (top:verbal, middle:visual, bottom:vocal) multimodal multitask learning (valence+intensity)
+# Hierarchical Fusion (top:verbal, middle:visual, bottom:vocal) multimodal multitask learning (valence+intensity)
 # for ACL2018 Computational Modeling of Human Multimodal Language Workshop paper
 
 from __future__ import print_function
