@@ -10,7 +10,7 @@
 
 * In multimodal models we compare Early Fusion, Late Fusion, Hierarchical Fusion, and Tensor Fusion Network.
 
-These codes are for our ACL2018 Computational Modeling of Human Multimodal Language Workshop paper:
+**These codes are for our ACL2018 Computational Modeling of Human Multimodal Language Workshop paper:**
 
 ```latex
 @inproceedings{tian2018polarity,
