@@ -22,6 +22,7 @@
 }
 ```
 
+"acl2018_appendix.pdf" contains results on the training and validation sets of the CMU-MOSI database, as an appendix to the test results reported in the paper.
 
 The Hierarchical Fusion model in the multimodal experiments is based on our previous work:
 
