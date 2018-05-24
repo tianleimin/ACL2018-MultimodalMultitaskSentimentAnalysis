@@ -20,7 +20,7 @@ warnings.filterwarnings("ignore")
 # save outputs to a log file in case there is a broken pipe
 import sys
 idlestdout = sys.stdout
-logger = open("/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/output_FL_uno.txt", "w")
+logger = open("prediction/output_FL_uno.txt", "w")
 sys.stdout = logger
 
 # custom evaluation metrics
@@ -179,7 +179,7 @@ print('Valence Test mae:', tst_mae_emo)
 
 # output predictions
 np.set_printoptions(threshold=np.nan)
-tst_pred_file = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/pred_FL_uno.txt"
+tst_pred_file = "prediction/pred_FL_uno.txt"
 print('Printing predictions...')
 tst_pred = FL_model.predict(x_test)
 tst_df = pd.DataFrame(tst_pred)
