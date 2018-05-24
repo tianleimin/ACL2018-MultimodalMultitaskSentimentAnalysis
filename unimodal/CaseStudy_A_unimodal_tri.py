@@ -21,7 +21,7 @@ warnings.filterwarnings("ignore")
 # save outputs to a log file in case there is a broken pipe
 import sys
 idlestdout = sys.stdout
-logger = open("/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/output_A_unimodal_tri_CaseStudy.txt", "w")
+logger = open("prediction/output_A_unimodal_tri_CaseStudy.txt", "w")
 sys.stdout = logger
 
 # custom evaluation metrics
@@ -236,12 +236,12 @@ tst_pred = model.predict(x_test)
 
 # for case studies
 # actual sentiment score labels
-tst_pred_file_real_sen = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/MOSI_test_labels_sen.txt"
+tst_pred_file_real_sen = "prediction/MOSI_test_labels_sen.txt"
 tst_df_real_sen = pd.DataFrame(x_test)
 tst_df_real_sen.to_csv(tst_pred_file_real_sen, index=False, header=False)
 
 # actual polarity class labels
-tst_pred_file_real_pol = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/MOSI_test_labels_pol.txt"
+tst_pred_file_real_pol = "prediction/MOSI_test_labels_pol.txt"
 tst_df_real_pol = pd.DataFrame(z1_test)
 for index, row in tst_df_real_pol.iterrows():
     ifor_val = 'Positive'
@@ -251,7 +251,7 @@ for index, row in tst_df_real_pol.iterrows():
 tst_df_real_pol.to_csv(tst_pred_file_real_pol, index=False, header=False)
 
 # actual intensity class labels
-tst_pred_file_real_int = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/MOSI_test_labels_int.txt"
+tst_pred_file_real_int = "prediction/MOSI_test_labels_int.txt"
 tst_df_real_int = pd.DataFrame(z2_test)
 for index, row in tst_df_real_int.iterrows():
     ifor_val = ''
@@ -267,12 +267,12 @@ for index, row in tst_df_real_int.iterrows():
 tst_df_real_int.to_csv(tst_pred_file_real_int, index=False, header=False)
 
 # predictions of sentiment scores (main task predictions)
-tst_pred_file_sen = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/pred_A_unimodal_tri_sen.txt"
+tst_pred_file_sen = "prediction/pred_A_unimodal_tri_sen.txt"
 tst_df_sen = pd.DataFrame(tst_pred[0])
 tst_df_sen.to_csv(tst_pred_file_sen, index=False, header=False)
 
 # predictions of polarity classes (aux task 1 predcitions)
-tst_pred_file_pol = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/pred_A_unimodal_tri_pol.txt"
+tst_pred_file_pol = "prediction/pred_A_unimodal_tri_pol.txt"
 tst_df_pol = pd.DataFrame(tst_pred[1])
 for index, row in tst_df_pol.iterrows():
     ifor_val = 'Positive'
@@ -282,7 +282,7 @@ for index, row in tst_df_pol.iterrows():
 tst_df_pol.to_csv(tst_pred_file_pol, index=False, header=False)
 
 # predictions of intensity classes (aux task 2 predictions)
-tst_pred_file_int = "/exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction/pred_A_unimodal_tri_int.txt"
+tst_pred_file_int = "prediction/pred_A_unimodal_tri_int.txt"
 tst_df_int = pd.DataFrame(tst_pred[2])
 for index, row in tst_df_int.iterrows():
     ifor_val = ''
