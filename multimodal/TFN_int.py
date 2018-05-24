@@ -23,7 +23,7 @@ if len(sys.argv) == 2:
     output_dir = sys.argv[1]
 else:
     raise NameError('Please provide an output directory, e.g.\n'
-        '    /exports/csce/datastore/inf/groups/eddie_inf_hcrc_cstr_students/s1219694/ACL2018/prediction')
+        '/ACL2018/prediction')
 
 idlestdout = sys.stdout
 logger = open(output_dir + "/output_TFN_int.txt", "w")
