@@ -237,7 +237,7 @@ tst_pred = model.predict(x_test)
 # for case studies
 # actual sentiment score labels
 tst_pred_file_real_sen = "prediction/MOSI_test_labels_sen.txt"
-tst_df_real_sen = pd.DataFrame(x_test)
+tst_df_real_sen = pd.DataFrame(y_test)
 tst_df_real_sen.to_csv(tst_pred_file_real_sen, index=False, header=False)
 
 # actual polarity class labels
